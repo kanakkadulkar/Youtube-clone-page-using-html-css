@@ -1,0 +1,157 @@
+.search-1{
+  font-size: 20px;
+  object-fit: contain;
+  display: block;
+  border-radius: 2px;
+  margin: none;
+  height: 34px;
+  flex: 1;
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: rgb(148, 148, 148);
+  
+  box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0);
+  margin-bottom: 2px;
+  width: 0;
+
+}
+.search-1::placeholder{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+  height :55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+  background-color: white;
+  margin-top: 0;
+  padding-top: 0;
+  border-bottom-width:1px ;
+  border-bottom-style: solid;
+  border-bottom-color:rgb(199, 199, 199) ;
+  z-index: 100;
+}
+
+
+
+
+.left-section{
+  background-color:white;
+ 
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.menu-hm{
+  margin-right: 20px;
+  margin-left: 20px;
+ height: 25px;
+ margin: none;
+}
+.yt-logo{
+  margin-left: 50px;
+  height: 25px;
+}
+
+
+
+.middle-section{
+  flex: 2;
+  margin-left: 70px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-2{
+  height: 25px;
+  margin-top: 4px;
+ 
+}
+.s-button{
+  align-items: center;
+  height: 37px;
+  width: 60px;
+  margin-bottom: 2px;
+  background-color: rgb(231, 231, 231);
+  margin-left: -1px;
+  border-radius: 1px;
+  border-color: rgb(148, 148, 148);
+  border-width: 1px;
+  
+}
+.m-button{
+  margin-left: 10px;
+  border-radius: 25px;
+  border: none;
+}
+.mic-2{
+  height: 24px;
+
+}
+
+
+.right-section{
+  width: 200px;
+  display:flex ;
+  align-items: center;
+  justify-content:space-between ;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.dpm-logo{
+  width: 32px;
+  height: 32px;
+  border-radius: 25px;
+}
+.c-button,.n-button,.d-button{
+  border: none;
+  background-color: white;
+
+}
+
+.noti-icon-container{
+  position: relative;
+}
+.noti-counts{
+  position: absolute;
+  top: -2px;
+  right: -1px;
+  background-color: rgb(201, 0, 0);
+  color: white;
+  font-family: Roboto,arial;
+  font-size: 11px;
+  border-radius: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.s-button .tooltip,.c-button .tooltip,.m-button .tooltip{
+  position: absolute;
+  color: white;
+  background-color: grey;
+  padding:4px;
+  border-radius: 4px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  display: flex;
+  direction: row;
+  justify-content: center;
+}
+.s-button:hover .tooltip ,.c-button:hover .tooltip,.m-button:hover .tooltip{
+ opacity: 1;
+}
+.s-button,.c-button,.m-button{position: relative;
+align-items: center;}
